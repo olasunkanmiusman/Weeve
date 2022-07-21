@@ -1,0 +1,74 @@
+body{
+    background-color:beige; 
+    font-family: 'Ubuntu', sans-serif;
+ 
+}
+#firstcolor{
+    color: whitesmoke;
+    font-family: 'Spirax', cursive;
+         
+}
+#secondcolor{
+color:antiquewhite;
+font-family: 'Rubik Moonrocks', cursive;
+}
+#navbar{
+  background-color: aliceblue;   
+}  
+#order-container{
+  color: white;
+  padding: 10px;
+  margin: 20px;
+}
+#discount{
+  background-color: white;
+}
+ 
+#Item-Margin{
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+ 
+#productitem{
+  float: right;
+} 
+#item-margin{
+  margin-bottom: 5rem;
+}
+#producttitle{
+  margin-bottom: -1.5rem;
+}
+a{
+  text-decoration: none;
+}
+ #Medium-margin{
+   margin-top: -0.5rem;
+ }
+ #states{
+   margin-top: 6rem;
+ }
+  
+ input:invalid{
+  border: 2px solid red;
+ }
+ 
+ /* Style for search input */
+ #Full-Qasa-Solar-Rechargeable-Power-Kit-Search,#Solar-Rechargeable-Lamp-Search,#Qasa-Rechargeable-Solar-Power-Kit-Search,#Qasa-20W-Solar-Panel-Search,#Solar-Rechargeable-Led-Bulb-Search,#Duravolt-Rechargeable-Table-Fan{
+display: none;
+
+   } 
+   #margincontact{
+     margin-left: -25px;
+   }
+    #floatingInputValue{
+      background-color: transparent;
+    }
+    #submit{
+      float: right;
+    }
+      
+    ol{
+      list-style-type: disc;
+    }
+
+    
