@@ -22,9 +22,12 @@ var showCartItems = function(array){
   }
   
 
+   
+  
+  
 
 function showCartBadge(){
-  if((localStorage["cart"] === NaN) || localStorage["cart"] < 0){
+  if((localStorage["cart"] === NaN) || (localStorage["cart"] < 0) || (localStorage["cart"] === undefined)){
     localStorage["cart"] = 0;
   }
     //load cart badge
