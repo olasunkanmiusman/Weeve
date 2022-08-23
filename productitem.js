@@ -24,6 +24,9 @@ var showCartItems = function(array){
 
 
 function showCartBadge(){
+  if((localStorage["cart"] === NaN) || localStorage["cart"] < 0){
+    localStorage["cart"] = 0;
+  }
     //load cart badge
     document.getElementById('carts').innerHTML =  localStorage["cart"];
     

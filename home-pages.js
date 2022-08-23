@@ -1,13 +1,13 @@
 // Page Reload back to home page
-function Reload(){
-if(window.performance){
-  console.info("window performance works");
-  if(performance.navigation.type == performance.navigation.TYPE_RELOAD){
-    console.info("this page is reloaded");
-    location.href = "home-page.html";
-  }
-}
-}
+// function Reload(){
+// if(window.performance){
+//   console.info("window performance works");
+//   if(performance.navigation.type == performance.navigation.TYPE_RELOAD){
+//     console.info("this page is reloaded");
+//     location.href = "home-page.html";
+//   }
+// }
+// }
 
 
 
@@ -28,6 +28,13 @@ var showCartItems = function(array){
 
 
 function showCartBadge(){
+
+  function showCartBadge(){
+    if((localStorage["cart"] === NaN) || localStorage["cart"] < 0){
+      localStorage["cart"] = 0;
+    }
+  }
+  
     //load cart badge
     document.getElementById('carts').innerHTML =  localStorage["cart"];
     
