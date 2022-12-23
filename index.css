@@ -23,7 +23,9 @@ font-family: 'Rubik Moonrocks', cursive;
 #discount{
   background-color: white;
 }
- 
+  #productsimage{
+    height: 25%;
+  }
 #Item-Margin{
   margin-top: 6rem;
   margin-bottom: 2rem;
